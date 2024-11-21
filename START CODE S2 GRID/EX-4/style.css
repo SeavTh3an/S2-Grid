@@ -1,0 +1,547 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f9f9f9;
+}
+.sidebar{
+    width: 180px;
+    height: 110vh;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20PX;
+    border-radius: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.Logo-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.Logo-container h1{
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+.dashboardicon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.DB{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+.classicon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.CL{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+.resourcesicon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.RS{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+.learningplanicon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.LN{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+.chaticon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.CH{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+.settingicon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ST{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+.sidebar button{
+    background-color: rgb(66, 66, 250);
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border-color: #f9f9f9;
+    margin-top: 80px;
+    margin-left: 18px;
+}
+.maincontent{
+    flex-grow: 1;
+    padding: 20px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+.sr{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.welcome-card{
+    padding: 20px;
+    background-color: #f3bcc3;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 980px;
+}
+.welcomecardimg{
+    width: 125px;
+    height: 125px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.welcome-card h2{
+    color: rgb(250, 66, 96);
+}
+.Mainview{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    
+}
+.section1{
+    width: 500px;
+    height: 400px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.201);
+    box-sizing: border-box;
+    border-radius: 3%;
+    background-color: whitesmoke;
+}
+.navsec1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.section1 h3{
+    margin-left: 25px;
+}
+.section1 h5{
+    margin-left: 250px;
+    font-size: 13px;
+}
+.section1 h4, p{
+    margin-left: 15px;
+}
+.cards{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.section2{
+    width: 500px;
+    height: 400px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.201);
+    border-radius: 3%;
+    background-color: whitesmoke;
+}
+.section2 h3{
+    margin-left: 25px;
+}
+.section2 h5{
+    margin-left: 170px;
+    font-size: 13px;
+}
+.navsec2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.cards1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 50px;
+}
+.navcourse{
+display: flex;
+align-items: center;
+height: 50px;
+margin: 10px;
+}
+.navcourse p{
+    font-size: 15px;
+    margin-left: 840px;
+}
+.course{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    width: 1030px;
+    gap: 20px;
+}
+.Grammar{
+    border-radius: 30px;
+    background-color: pink;
+    border-color: #ff1493;
+    width: 250px;
+    border: 5px solid rgb(240, 176, 186);
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+    height: 80px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 30px auto auto auto;
+}
+.Grammar h5{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Grammar p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.Grammar:hover{
+    background-color: #ff1493;
+    border-color: #69b4;
+}
+.PhrasalVerb{
+    border-radius: 30px;
+    background-color: blue;
+    border-color: rgb(62, 62, 247);
+    width: 250px;
+    border: 5px solid rgb(30, 30, 175);
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+    height: 80px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 30px auto auto auto;
+}
+.PhrasalVerb h5{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.PhrasalVerb p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.PhrasalVerb:hover{
+    background-color: cyan;
+    border-color: #69b4;
+}
+.Vocabulary{
+    border-radius: 30px;
+    background-color: rgb(255, 94, 0);
+    width: 250px;
+    border: 5px solid rgb(164, 54, 35);
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+    height: 80px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 30px auto auto auto;
+}
+.Vocabulary h5{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Vocabulary p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.Vocabulary:hover{
+    background-color: rgb(230, 95, 95);
+    border-color: #69b4;
+}
+.Writing{
+    border-radius: 30px;
+    background-color: rgb(207, 19, 207);
+    border-color: #ff1493;
+    width: 250px;
+    border: 5px solid purple;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+    height: 80px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 30px auto auto auto;
+}
+.Writing h5{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Writing p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.Writing:hover{
+    background-color: rgb(60, 29, 60);
+    border-color: #69b4;
+}
+.reminders {
+    flex-grow: 1;
+    padding: 20px;  
+}
+.reminders head{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.reminders h3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.head {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.lo{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.pfp{
+    margin-left: 30px;
+}
+.reminders h2{
+    font-size: 15px;
+}
+.remix{
+    margin-top: 270px;
+}
+.Mix{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.Eng{
+    border-radius: 30px;
+    background-color: cyan;
+    border-color: rgb(62, 62, 247);
+    width: 190px;
+    border: 5px solid rgb(10, 196, 196);
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+    height: 80px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 30px auto auto auto;
+    font-size: 12px;
+}
+.Eng h3{
+    margin-left: 10px;
+    color: grey;
+}
+.Eng p{
+    margin-left: 20px;
+    color: black;
+}
+.hw{
+    border-radius: 30px;
+    background-color: cyan;
+    border-color: rgb(62, 62, 247);
+    width: 190px;
+    border: 5px solid rgb(10, 196, 196);
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+    height: 80px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 30px auto auto auto;
+    font-size: 12px;
+}
+.hw h3{
+    margin-left: 10px;
+    color: grey;
+}
+.hw p{
+    margin-left: 20px;
+    color: black;
+}
+.Spanish{
+    border-radius: 30px;
+    background-color: cyan;
+    border-color: rgb(62, 62, 247);
+    width: 190px;
+    border: 5px solid rgb(10, 196, 196);
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+    height: 80px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 30px auto auto auto;
+    font-size: 12px;
+}
+.Spanish h3{
+    margin-left: 10px;
+    color: grey;
+}
+.Spanish p{
+    margin-left: 20px;
+    color: black;
+}
+.pfpp p{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    align-items: center;
+}
+.progress-container5{
+    width: 80%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+.progress-bar5 {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%; /* Update this dynamically to show progress */
+    transition: width 0.3s ease-in-out;
+}
+.progress-container4{
+    width: 80%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+.progress-bar4 {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%; /* Update this dynamically to show progress */
+    transition: width 0.3s ease-in-out;
+}
+.progress-container3{
+    width: 80%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+}
+.progress-bar3 {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%; /* Update this dynamically to show progress */
+    transition: width 0.3s ease-in-out;
+}
+.progress-containerv {
+    width: 40px;
+    height: 150px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.progress-barv {
+    width: 100%;
+    background-color: #4caf50;
+    transition: height 0.3s ease-in-out;
+    border-radius: 5px;
+}
+.progress-containerg {
+    width: 40px;
+    height: 150px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.progress-barg {
+    width: 100%;
+    background-color: #4caf50;
+    transition: height 0.3s ease-in-out;
+    border-radius: 5px;
+}
+.progress-containerw {
+    width: 40px;
+    height: 150px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.progress-barw {
+    width: 100%;
+    background-color: #4caf50;
+    transition: height 0.3s ease-in-out;
+    border-radius: 5px;
+}
+    
